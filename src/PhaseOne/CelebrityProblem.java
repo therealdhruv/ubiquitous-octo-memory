@@ -15,7 +15,7 @@ public class CelebrityProblem {
             }
         }
 
-        int celebID = new Solution().findCeleb(relationshipMatrix, n);
+        int celebID = new SolutionCeleb().findCeleb(relationshipMatrix, n);
         if (celebID != -1) System.out.println("Celebrity ID is: " + celebID);
         else System.out.println("No celebrity exist");
 
@@ -23,7 +23,7 @@ public class CelebrityProblem {
     }
 }
 
-class Solution {
+class SolutionCeleb {
     int findCeleb(int[][] m, int n) {
 
         int candidate = 0;
