@@ -30,3 +30,12 @@ public class StockSpan {
         System.out.println("Share span " + Arrays.toString(span));
     }
 }
+
+
+/*
+*
+* Time complexity - O(N^2)
+*
+* Space Complexity - O(N)
+*
+* */
