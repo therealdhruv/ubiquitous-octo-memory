@@ -9,7 +9,7 @@ public class TowerOfHanoi {
         }
         solveTowerOfHanoi(n - 1, src, auxRod, dst);
         System.out.println("Move disk " + n + " from rod " + src + " to rod " + dst);
-        solveTowerOfHanoi(n-1, auxRod, dst, src);
+        solveTowerOfHanoi(n - 1, auxRod, dst, src);
     }
 
     public static void main(String[] args) {
