@@ -1,4 +1,4 @@
-package PhaseOne;
+package PhaseOne.Hacks;
 import java.util.*;
 
 public class SortWithoutExtraSpace {
