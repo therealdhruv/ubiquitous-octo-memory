@@ -13,7 +13,7 @@ public class StockSpan {
         for (int i = 1; i < n; i++) {
             span[i] = 1;
             int j = i - 1;
-            while (j > 0 && sharePrices[i] >= sharePrices[j]) {
+            while (j >= 0 && sharePrices[i] >= sharePrices[j]) {
                 span[i]++;
                 j--;
             }
