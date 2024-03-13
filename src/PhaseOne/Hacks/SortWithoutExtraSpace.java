@@ -18,10 +18,8 @@ public class SortWithoutExtraSpace {
 
     private static int partition(int[] arr, int low, int high) {
 
-        // choose the last element as the pivot
         int pivot = arr[high];
 
-        // initialize the index of the smaller element
         int i = low - 1;
 
         for (int j = low; j < high; j++) {
