@@ -65,8 +65,8 @@ public class BellmanFord {
         }
 
         public static void main(String[] args) {
-            int V = 8;
-            int E = 10;
+            int V = 5;
+            int E = 7;
             createGraph graph = new createGraph(V, E);
 
             graph.edge[0] = graph.new createEdge(1, 2, 6);
